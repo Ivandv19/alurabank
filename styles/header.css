@@ -1,7 +1,19 @@
+
 .encabezado {
     display: flex;
+    width: 100%;
     align-items: center;
-    margin: 2em 1em;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    background-color: white;
+
+}
+main{
+    display: 100%;
+    height: auto;
+    padding: 100px 0 0 0;
 }
 
 .encabezado-lista {
@@ -61,7 +73,7 @@
 
 @media screen and (max-width: 900px) {
     .encabezado {
-        margin: 2em;
+        
     }
 
     .encabezado__buscar,
