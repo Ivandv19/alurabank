@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     background-color: white;
+    
 
 }
 main{
@@ -30,11 +31,18 @@ main{
     font-size: 28px;
     font-weight: 700;
     color: var(--azul-claro);
+    
 }
 
 .encabezado__logo-final {
     font-weight: 400;
     font-style: italic;
+    
+}
+.anchorTag{
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto del elemento padre (opcional) */
+
 }
 
 .encabezado__buscar {
