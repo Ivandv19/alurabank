@@ -7,27 +7,32 @@ Este proyecto es la página inicial de AluraBank, un banco digital ficticio. La 
 - Información sobre servicios bancarios.
 - Detalles sobre beneficios y ventajas del banco.
 - Enlaces de contacto y redes sociales.
+- Pagina dedicada a crear una cuenta bancaria
 
 ## Uso
 
-Simplemente abre el archivo `index.html` en tu navegador para ver la página inicial de AluraBank.
+1. **Visualización del Proyecto:** Instala el repositorio de manera local o visita el enlace desplegado en [Vercel](https://alurabank.vercel.app/).
+2. **Explora el contenido:** Navega por las diferentes secciones.
+3. **Crear cuenta:** Haz click en la seccion de abrir cuenta dodne te llevara a un formulario para crear una cuenta
 
 ## Tecnologías Utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
-- Reset CSS de Meyer
 
 ## Instalación
 
-No se requiere instalación especial. Solo abre el archivo `index.html` en tu navegador web.
+1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
+```bash
+https://github.com/IvandevI9/alurabank.git
+```
+2. Abre el archivo `index.html` en tu navegador web.
 
 ## Créditos
 
 - Este proyecto fue desarrollado como parte de un ejercicio de desarrollo web.
 - Las imágenes utilizadas fueron obtenidas de recursos gratuitos de Internet.
-
 - Desarrollado por [Alura Latam](https://www.linkedin.com/company/alura-latam/).
 - Desarrollado por [Ivan Cruz](https://www.linkedin.com/in/ivan-cruz-1906mx/).
 
