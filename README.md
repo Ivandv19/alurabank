@@ -11,7 +11,7 @@ Este proyecto es la página inicial de AluraBank, un banco digital ficticio. La 
 
 ## Uso
 
-1. **Visualización del Proyecto:** Instala el repositorio de manera local o visita el enlace desplegado en [Vercel](https://alurabank.vercel.app/).
+1. **Visualización del Proyecto:** Instala el repositorio de manera local y abre el archivo `index.html` en tu navegador web o visita el enlace desplegado en [Vercel](https://alurabank.vercel.app/).
 2. **Explora el contenido:** Navega por las diferentes secciones.
 3. **Crear cuenta:** Haz click en la seccion de abrir cuenta dodne te llevara a un formulario para crear una cuenta
 
