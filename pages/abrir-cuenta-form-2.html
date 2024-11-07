@@ -4,14 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon del sitio -->
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
     <title>AluraBank - Registro</title>
+
+    <!-- Fuentes externas de Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Montserrat:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Reset CSS para eliminar estilos predeterminados -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
@@ -19,11 +25,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- Estilos personalizados del sitio -->
     <link rel="stylesheet" href="../styles/styles.css" />
     <link rel="stylesheet" href="../styles/formulario/styles.css" />
   </head>
 
   <body>
+    <!-- Encabezado con logo y opciones de navegación -->
     <header class="encabezado">
       <h1 class="encabezado__logo-inicio">
         Alura<span class="encabezado__logo-final">Bank</span>
@@ -57,6 +66,7 @@
       </ul>
     </header>
 
+    <!-- Sección del banner promocional -->
     <section class="banner">
       <h3 class="banner__titulo">
         ¡Alura-cuenta es el primer paso hacia la libertad financiera!
@@ -64,13 +74,16 @@
     </section>
 
     <main class="container">
+      <!-- Breadcrumb para la navegación -->
       <ul class="breadcrumb">
         <li>Inicio</li>
         <li class="breadcrumb__pagina">Abrir cuenta</li>
       </ul>
 
+      <!-- Sección del formulario de reconocimiento facial -->
       <section class="formulario">
         <div class="formulario__container">
+          <!-- Imagen de progreso del formulario -->
           <img
             src="../img/status-2.png"
             alt="Etapa dos de tres"
@@ -82,6 +95,7 @@
             imagen!
           </p>
 
+          <!-- Imagen para activar la captura facial -->
           <img
             src="../img/reconocimento.png"
             alt="Cara con ojos y una sonrisa dentro de un marco."
@@ -89,11 +103,13 @@
             class="formulario__imagen"
           />
 
+          <!-- Área de la cámara para la captura de imagen -->
           <div class="formulario__camera" data-camera>
             <video width="320" height="240" autoplay data-video></video>
             <button class="camera__boton" data-tomar-foto>Tomar foto</button>
           </div>
 
+          <!-- Mensaje que se muestra después de capturar la imagen -->
           <div class="formulario__mensaje" data-mensaje>
             <canvas width="320" height="240" data-video-canvas></canvas>
             <img
@@ -103,6 +119,7 @@
             />
             <p>¡Eso es, imagen capturada!</p>
 
+            <!-- Enlace para abrir la cuenta después de capturar la imagen -->
             <a
               href="#"
               class="formulario__boton formulario__boton--enlace"
@@ -114,6 +131,7 @@
       </section>
     </main>
 
+    <!-- Pie de página con enlaces y contactos -->
     <footer class="pie_pagina">
       <section class="pie_pagina__empresa">
         <h2 class="pie_pagina__titulo">AluraBank</h2>
@@ -170,6 +188,8 @@
         </h2>
       </section>
     </footer>
+
+    <!-- Script para la funcionalidad de la cámara -->
     <script src="/js/camera.js"></script>
   </body>
 </html>
