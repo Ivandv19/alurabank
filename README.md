@@ -39,7 +39,7 @@ https://github.com/IvandevI9/alurabank.git
 
 ## Despliegue
 
-El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [AluraBank](https://alurabank.vercel.app/).
+El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [AluraBank]( https://alurabank.vercel.app/ ).
 
 
 ## Licencia
